@@ -46,5 +46,9 @@ public class Studente {
     public String fullInfo() {
         return this.name + " " + this.surname + ", " + this.age + " anni";
     }
-
+    
+    @Override
+    public String toString() {
+        return "Studente{name='" + name + "', surname='" + surname + "', age=" + age + "}";
+    }
 }
